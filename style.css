@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container {
+    width: 100%;
+    min-height: 100vh; 
+    /* background: linear-gradient(135deg, #71b7e6, #9f3dc6); */
+    padding: 10px;
+}
+
+.todolist-body {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    background: #ffffff;
+    
+}
+
+
+.form-label {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.btn-submit {
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 449px;
+    height: 47px;
+    background-color: #3d4142;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 24px;
+    border-color: #C1C2C4;
+
+}
+
+body {
+    font-family: Lato, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar-toggler button {
+    width: 90px;
+}
+button {
+    padding: 10px;
+    background-color: #3d4142;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+ ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    
+    transition: background-color 0.3s;
+    list-style-type: none;
+} 
+
+ li button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+li button:hover {
+    background-color: red;
+}
+
+.completed {
+    text-decoration: line-through;
+}
